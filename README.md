@@ -1,8 +1,15 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Using Vite with React provides a fast and optimized development environment, ensuring rapid build times and live updates. It simplifies project setup and enhances the overall developer experience.
 
-Currently, two official plugins are available:
+Tailwind CSS can be seamlessly integrated with Vite to enable utility-first styling, making it easier to create responsive and consistent designs efficiently.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## State Management  
+I have used Redux Toolkit for state management, which simplifies the process of managing application state with powerful tools and boilerplate reduction.
+
+## Authentication  
+In the sign-up and login process, user information is stored in `localStorage` for persistent authentication across sessions.
+
+To run the project, use:  
+```bash
+npm run dev
